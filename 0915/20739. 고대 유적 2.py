@@ -1,4 +1,8 @@
+# 고대유적 1 2가 동일.... 
+
 T = int(input())  # 테스트 케이스받고
+
+
 
 for test_case in range(1, T + 1):  # 테스트 케이스 돌면서
     N, M = map(int, input().split())  # N은 세로 M은 가로
@@ -31,3 +35,4 @@ for test_case in range(1, T + 1):  # 테스트 케이스 돌면서
         longest = 0  # 걍 없다고 0출력함
 
     print(f'#{test_case} {longest}')
+
